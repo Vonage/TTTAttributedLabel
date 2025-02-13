@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/TTTAttributedLabel/TTTAttributedLabel.git', :tag => s.version.to_s }
   s.license      = 'MIT'
   s.frameworks   = 'UIKit', 'CoreText', 'CoreGraphics', 'QuartzCore'
-  s.source_files = 'TTTAttributedLabel'
+  s.source_files = 'TTTAttributedLabel', 'TTTAttributedLabel/include'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
